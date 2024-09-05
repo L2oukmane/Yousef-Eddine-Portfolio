@@ -72,6 +72,7 @@ for (let i = 0; i < toggleBtns.length; i++) {
 
 const themeToggleBtn = document.querySelector("[data-theme-btn]");
 
+
 themeToggleBtn.addEventListener("click", function () {
 
   elemToggleFunc(themeToggleBtn);
@@ -79,7 +80,8 @@ themeToggleBtn.addEventListener("click", function () {
   if (themeToggleBtn.classList.contains("active")) {
     document.body.classList.remove("dark_theme");
     document.body.classList.add("light_theme");
-
+   
+   
     localStorage.setItem("theme", "light_theme");
   } else {
     document.body.classList.add("dark_theme");
