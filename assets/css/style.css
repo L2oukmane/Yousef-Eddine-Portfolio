@@ -519,6 +519,7 @@ main { overflow-x: hidden; }
 
 .stats-card .card-icon {
   background: var(--raw-seinna);
+
   width: 60px;
   height: 60px;
   display: grid;
@@ -526,10 +527,18 @@ main { overflow-x: hidden; }
   border-radius: 50%;
 }
 
-.stats-card .card-icon img {
-  width: 70%;
-  filter: invert(1);
+.card-icon{
+  font-size: 15px;
+  font-family:var(--ff-saira-stencil-one);
+  text-align: center;
 }
+
+.card-icon span{
+  color:#EB3705;
+}
+
+
+
 
 .stats-card .card-title {
   width: calc(100% - 95px);
