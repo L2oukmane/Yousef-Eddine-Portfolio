@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yousef Eddine-personal portfolio</title>
+  <title>Yousef Eddine - personal portfolio</title>
 
   <!-- 
     - favicon
@@ -42,11 +42,11 @@
 
       <div class="navbar-actions">
 
-        <div name="language" id="lang">
-          <button value="ar" onselect="RussPage()">EN</button>
-          <button class="russPage" value="ar" onselect="RussPage()">Ru</button>
+        <select name="language" id="lang">
+          <button class="English-page"><option value="ar">En</option></button>
+          <button class="Russian-page"><option value="ar">Ru</option></button>
           
-        </div>
+        </select>
 
         <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
           <span class="icon"></span>
@@ -64,7 +64,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#home" class="navbar-link">Home.</a>
+            <a href="#home" class="navbar-link">Главная.</a>
           </li>
 
           <li>
@@ -106,8 +106,8 @@
 
           <picture>
             <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
-            <source srcset="./assets/images/hero-banner.png" media="(min-width: 500px)">
-            <img srcset="./assets/images/hero-banner.png" alt="A man in a blue shirt with a happy expression"
+            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
               class="w-100">
           </picture>
 

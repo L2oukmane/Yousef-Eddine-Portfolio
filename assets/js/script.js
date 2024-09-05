@@ -105,3 +105,11 @@ if (localStorage.getItem("theme") === "light_theme") {
   document.body.classList.remove("light_theme");
   document.body.classList.add("dark_theme");
 }
+
+/** change page language  */
+
+ function RussPage(){
+  location.href = "russian.html";
+};
+
+const russ = document.querySelector(".russPage").addEventListener
