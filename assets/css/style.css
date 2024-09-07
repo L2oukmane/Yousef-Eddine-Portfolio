@@ -641,13 +641,13 @@ main { overflow-x: hidden; }
 
 .skills-toggle.active::before {
   left: 98px;
-  width: 110px;
+  width: 97px;
 }
 
 .toggle-btn {
   color: var(--color-primary);
   font-family: var(--ff-poppins);
-  padding: 5px 14px;
+  padding: 5px 25px;
   transition: var(--transition-1);
 }
 
