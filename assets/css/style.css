@@ -101,6 +101,27 @@ body.light_theme {
 }
 
 
+ 
+.first-lang{
+  border: 2px solid hsl(13, 96%, 47%);
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+  background-color: hsl(13, 96%, 47%);
+}
+
+.second-lang{
+  border: 2px solid hsl(13, 96%, 47%);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+a {
+  color: hsl(13, 96%, 47%);
+  text-decoration: none;
+}
+
 
 
 
