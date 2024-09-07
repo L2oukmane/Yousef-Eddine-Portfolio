@@ -335,6 +335,7 @@ body.active { overflow: hidden; }
 .logo a {
   color: var(--color-primary);
   font-family: var(--ff-saira-stencil-one);
+  font-size: 1.8rem;
 }
 
 .logo span {
@@ -640,13 +641,13 @@ main { overflow-x: hidden; }
 
 .skills-toggle.active::before {
   left: 98px;
-  width: 94px;
+  width: 110px;
 }
 
 .toggle-btn {
   color: var(--color-primary);
   font-family: var(--ff-poppins);
-  padding: 5px 25px;
+  padding: 5px 14px;
   transition: var(--transition-1);
 }
 
